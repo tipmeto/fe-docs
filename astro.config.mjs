@@ -12,16 +12,22 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Tipme',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Sobre', slug: 'about/us' },
 					],
 				},
 				{
+					label: 'Métodos de Pagamento',
+					items: [
+						{ label: 'Intro', slug: 'payment-methods/intro' },
+						{ label: 'MBWay', slug: 'payment-methods/mbway' },
+					],
+				},
+				/* {
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
-				},
+				}, */
 			],
 		}),
 	],
