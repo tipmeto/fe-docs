@@ -1,0 +1,33 @@
+---
+title: Eupago
+description: Instituição de Pagamentos de Portugal
+---
+
+A Eupago é uma Instituição de Pagamentos registada no Banco de Portugal e neste momento opera no mercado português e espanhol.
+
+# Métodos de Pagamento Disponíveis
+- MBWay
+- Multibanco
+- Bizum
+- Pix
+
+# Processo de inscrição
+
+## 1 - Regista-te usando o nosso formulário
+Para os registos na Eupago, é obrigatório usar o nosso (formulario)[https://signup.tipme.to]
+
+Podem-se registar na Eupago pela Tipme:
+- Pessoas Singulares
+- Empresários em Nome Individual
+- Empresas
+- Associações
+
+## 2 - Documentos necessários
+
+### 2.1 Pessoas Singulares
+
+- **Comprovativo de Morada com menos de 3 meses.** - Este documento tem de ter uma data visivel. Pode ser fatura de internet, águal, luz, gás, etc.
+- **Comprovativo de IBAN** - É um documento em PDF que podes fazer download através da APP do teu banco ou do homebanking. Não são aceites recibos de Multibanco. O documento aceite tem de ter o nome da pessoa/entidade que se está a inscrever e, o logotipo do banco e o código BIC/SWIFT.
+- **Documento de identificação** - Pode ser Cartão do Cidadão ou Passaporte.
+
+Qualquer pessoa pode fazer a pré-inscrição (independentemente se a morada é em Portugal ou noutro país).
