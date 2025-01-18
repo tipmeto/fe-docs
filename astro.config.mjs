@@ -24,6 +24,18 @@ export default defineConfig({
 						{ label: 'MBWay', slug: 'payment-methods/mbway' },
 					],
 				},
+        {
+          label: 'Instituições de Pagamento',
+          items: [
+            {
+              label: 'Eupago',
+              items: [
+                { label: 'Intro', slug: 'payment-gateways/intro' },
+                { label: 'Registo na Eupago', slug: 'payment-gateways/eupago/registo-eupago' },
+              ],
+            }
+          ],
+        },
 				/* {
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
