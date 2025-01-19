@@ -12,8 +12,12 @@ export default defineConfig({
         // Path to your Tailwind base styles:
         './src/tailwind.css',
       ],
+      logo: {
+        src: './src/assets/tipme-logo.svg',
+        replacesTitle: true,
+      },
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/tipmeto/fe-docs',
       },
       sidebar: [
         {
