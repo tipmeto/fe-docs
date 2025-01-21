@@ -8,10 +8,24 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Docs',
+      defaultLocale: 'root',
       customCss: [
-        // Path to your Tailwind base styles:
         './src/tailwind.css',
       ],
+      locales: {
+        root: {
+          label: 'Português',
+          lang: 'pt-PT',
+        },
+        'pt-BR': {
+          label: 'Português do Brasil',
+          lang: 'pt-BR',
+        },
+        en: {
+          label: 'English',
+          lang: 'en',
+        }
+      },
       logo: {
         src: './src/assets/tipme-logo.svg',
         replacesTitle: true,
