@@ -1,36 +1,30 @@
 ---
-title: Tipme
+title: Central de ajuda
 description: Tipme documentation
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Documentação e tutoriais de todas as funcionalidades da plataforma Tipme
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/tipme-logo.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Ver documentação
+      link: /about/us
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+      variant: primary
+
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
 
-## Next steps
+## Links rápidos
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+<CardGrid>
+	<Card title="Registo na Eupago" icon="pencil">
+		Todas as informações sobre como
+    <a href="/payment-gateways/eupago/registo-eupago">registar na Eupago</a>.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Levantamento de fundos" icon="add-document">
+		Como <a href="/payment-gateways/eupago/levantamento">levantar os fundos</a> da Eupago para o teu banco.
 	</Card>
 </CardGrid>
