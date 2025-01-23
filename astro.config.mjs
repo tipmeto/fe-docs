@@ -58,6 +58,7 @@ export default defineConfig({
                 { label: 'Tempo de resposta da Eupago', slug: 'payment-gateways/eupago/eupago-tempo-resposta' },
                 { label: 'Documentos necessários', slug: 'payment-gateways/eupago/documentos' },
                 { label: 'Levantamento de fundos', slug: 'payment-gateways/eupago/levantamento' },
+                { label: 'Alterar número de telefone', slug: 'payment-gateways/eupago/change-mbway-number' },
               ],
             },
           ],
