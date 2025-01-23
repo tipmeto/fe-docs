@@ -38,6 +38,7 @@ export default defineConfig({
           label: 'Tipme',
           items: [
             { label: 'Sobre', slug: 'about/us' },
+            { label: 'Preços', slug: 'about/prices' },
           ],
         },
         {
