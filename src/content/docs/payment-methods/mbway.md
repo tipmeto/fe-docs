@@ -20,3 +20,11 @@ Quando alguém usa a Tipme para dar uma gratificação ou contribuir para uma an
 O utilizador que quer iniciar uma transferência pode ter uma opção de marketing no final do formulário para consentir ser contactado para efeitos de marketing, se o criador da página habilitar essa funcionalidade.
 
 O criador da página, ou o utilizador que inicia a transferência, não tem acesso aos números de telemovel usados para a transação.
+
+## O meu número tem MBWay associado, tem alguma influência para quem recebe?
+
+Não.
+
+Quando falamos em MBWay, estamos apenas a habilitar a que vai contribuir para uma angariação de fundos utilizar esse método de pagamento.
+
+Quem recebe os fundos, vai **sempre** receber por transferência IBAN. Quem recebe os fundos pode até nem sequer ter MBWay ativo na conta.
