@@ -44,7 +44,7 @@ export default defineConfig({
         {
           label: 'Alertas',
           items: [
-            { label: 'Intro', slug: 'alerts/intro' },
+            { label: 'Intro', slug: 'alerts/alerts' },
             { label: 'Streamlabs', slug: 'alerts/streamlabs' },
             { label: 'Streamelements', slug: 'alerts/streamelements' },
           ],
