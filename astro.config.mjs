@@ -42,6 +42,14 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Alertas',
+          items: [
+            { label: 'Intro', slug: 'alerts/intro' },
+            { label: 'Streamlabs', slug: 'alerts/streamlabs' },
+            { label: 'Streamelements', slug: 'alerts/streamelements' },
+          ],
+        },
+        {
           label: 'Métodos de Pagamento',
           items: [
             { label: 'Intro', slug: 'payment-methods/intro' },
