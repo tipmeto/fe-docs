@@ -24,6 +24,10 @@ export default defineConfig({
         en: {
           label: 'English',
           lang: 'en',
+        },
+        es: {
+          label: 'Español',
+          lang: 'es',
         }
       },
       logo: {
