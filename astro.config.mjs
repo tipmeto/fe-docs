@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import tailwind from '@astrojs/tailwind';
+import tailwindcss from '@tailwindcss/vite';
 
 
 export default defineConfig({
@@ -34,9 +34,9 @@ export default defineConfig({
         src: './src/assets/tipme-logo.svg',
         replacesTitle: true,
       },
-      social: {
-        github: 'https://github.com/tipmeto/fe-docs',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/tipmeto/fe-docs' },
+      ],
       sidebar: [
         {
           label: 'Tipme',
@@ -78,9 +78,6 @@ export default defineConfig({
         },
       ],
     }),
-    tailwind({
-      // Disable the default base styles:
-      applyBaseStyles: false,
-    }),
   ],
+  vite: { plugins: [tailwindcss()] },
 });

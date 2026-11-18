@@ -2,6 +2,7 @@
   "name": "tipme-docs",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "yarn@4.18.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,11 +11,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.30.5",
-    "@astrojs/starlight-tailwind": "^3.0.0",
-    "@astrojs/tailwind": "^5.1.4",
-    "astro": "^5.0.2",
-    "sharp": "^0.32.5",
-    "tailwindcss": "^3.4.17"
+    "@astrojs/markdown-remark": "^7.3.9",
+    "@astrojs/starlight": "^0.43.1",
+    "@astrojs/starlight-tailwind": "^5.0.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^7.4.12",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8"
   }
 }

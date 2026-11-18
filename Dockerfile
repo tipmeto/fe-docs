@@ -1,15 +1,14 @@
-FROM node:23-alpine AS builder
+FROM node:26-slim AS builder
 
 WORKDIR /app
 
+RUN npm install --global --force @yarnpkg/cli-dist@4.18.1
 
-COPY package*.json yarn.lock ./
+COPY package.json yarn.lock .yarnrc.yml ./
+RUN yarn install --immutable
+
 COPY . .
-
-RUN yarn install
 RUN yarn build
-
-RUN yarn install --production --frozen-lockfile
 
 FROM nginx:alpine
 
